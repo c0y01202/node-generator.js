@@ -41,14 +41,12 @@ const questions = [
     message: "What is the license? ",
     name: "license",
     choices: [
-      "GNU AGPLv3",
-      "GNU GPLv3",
-      "GNU LGPLv3",
-      "Mozilla Public License 2.0",
-      "Apache License 2.0",
       "MIT License",
-      "Boost Software License 1.0",
-      "The Unlicense",
+      "LGPL",
+      "Copyleft",
+      "Proprietary",
+      "CC BY-SA",
+      "Cryptix General License",
     ],
   },
   {
@@ -70,16 +68,14 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  function init() {
-    inquirer
-      .prompt(questions)
-      .then((data) => {
-        return generateMarkdown(data);
-      })
-      .then((data) => {
-        writeToFile("README.md", data);
-      });
-  }
+  inquirer
+    .prompt(questions)
+    .then((data) => {
+      return generateMarkdown(data);
+    })
+    .then((data) => {
+      writeToFile("README.md", data);
+    });
 }
 
 // Function call to initialize app

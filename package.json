@@ -1,0 +1,23 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0y01202/node-generator.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0y01202/node-generator.js/issues"
+  },
+  "homepage": "https://github.com/c0y01202/node-generator.js#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
