@@ -2,7 +2,8 @@
 ![node_generator](https://user-images.githubusercontent.com/97765679/161163503-11925bd6-4118-4d48-9b8a-c7c710f97a77.png)
 # Node Generator
 
-The purpose of this project was to submit a sample ReadMe file using Node.js and Inquirer. The following is that sample ReadMe file:
+The purpose of this project was to submit a sample ReadMe file using Node.js and Inquirer. The following link is a video showing terminal use and programming in Visual Studio: https://drive.google.com/file/d/1G9grOCGwPihwHkBKtZWgusDk2Ef97zOA/view 
+The following is that sample ReadMe file:
 
 ## Table of Contents
 
